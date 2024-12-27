@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  }
+  
+  .navbar__logo {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .navbar__links {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .navbar__links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+  }
+  
+  .signup-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .signup-btn:hover {
+    background-color: #555;
+  }
+  
