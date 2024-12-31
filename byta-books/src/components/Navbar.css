@@ -1,40 +1,39 @@
-.navbar {
+/* src/components/NavBar.css */
+.top-nav {
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    background-color: #fff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+    align-items: center;
+    background-color: #fefefe;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
   }
   
-  .navbar__logo {
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: #333;
+  .nav-logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0070f3;
+    text-decoration: none;
   }
   
-  .navbar__links {
+  .nav-links {
     list-style: none;
     display: flex;
-    gap: 1.5rem;
+    gap: 1rem;
+    margin: 0;
   }
   
-  .navbar__links a {
-    text-decoration: none;
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links li a {
     color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease;
     font-weight: 500;
   }
   
-  .signup-btn {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 0.6rem 1.2rem;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  .signup-btn:hover {
-    background-color: #555;
+  .nav-links li a:hover {
+    color: #0070f3;
   }
   

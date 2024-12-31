@@ -1,0 +1,38 @@
+/* src/pages/Contact.css */
+.contact-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  
+  .contact-form label {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .contact-form button {
+    padding: 0.7rem 2rem;
+    background-color: #0070f3;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 1rem;
+  }
+  

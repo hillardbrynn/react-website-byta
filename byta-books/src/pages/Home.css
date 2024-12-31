@@ -1,0 +1,28 @@
+/* src/pages/Home.css */
+.home-container {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero-section {
+    margin-bottom: 2rem;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .cta-button {
+    padding: 0.8rem 2rem;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .cta-button:hover {
+    background-color: #005bb5;
+  }
+  

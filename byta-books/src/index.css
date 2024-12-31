@@ -1,13 +1,25 @@
-body {
+/* src/index.css */
+
+/* Basic CSS Reset/Normalize (optional) */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Optionally, you can style your links, headings, etc. */
+a {
+  text-decoration: none;
+  color: #0070f3;
+}
+
+a:hover {
+  text-decoration: underline;
 }
