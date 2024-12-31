@@ -25,4 +25,37 @@
   .cta-button:hover {
     background-color: #005bb5;
   }
+
+  .download-section {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .download-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .download-section p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: #555;
+  }
+  
+  .store-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem; /* space between badges */
+    flex-wrap: wrap; /* allows wrapping on smaller screens */
+  }
+  
+  .store-badge {
+    height: 50px;  /* adjust as needed */
+    width: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .store-badge:hover {
+    transform: scale(1.05);
+  }
   
