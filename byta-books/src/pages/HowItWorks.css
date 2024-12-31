@@ -1,0 +1,12 @@
+/* src/pages/HowItWorks.css */
+.how-it-works-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .how-it-works-container ol li {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+  }
+  

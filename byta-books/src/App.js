@@ -1,23 +1,26 @@
+// src/App.js
 import React from 'react';
-import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import NavBar from './components/Navbar';
 
-// Components
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import Features from './components/Features';
-import DownloadCTA from './components/DownloadCTA';
-import Footer from './components/Footer';
+import Home from './pages/Home';
+import HowItWorks from './pages/HowItWorks';
+import MeetTheTeam from './pages/MeetTheTeam';
+import Contact from './pages/Contact';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <main>
-        <Hero />
-        <Features />
-        <DownloadCTA />
-      </main>
-      <Footer />
+    <div className="app-container">
+      {/* Use NavBar here */}
+      <NavBar />
+
+      {/* Define your routes */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/meet-the-team" element={<MeetTheTeam />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }

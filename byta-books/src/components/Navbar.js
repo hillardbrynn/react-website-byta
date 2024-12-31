@@ -1,17 +1,27 @@
+// src/components/NavBar.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 
-function Navbar() {
+function NavBar() {
   return (
-    <nav className="navbar">
-      <div className="navbar__logo">Byta Books</div>
-      <ul className="navbar__links">
-        <li><a href="#features">Features</a></li>
-        <li><a href="#download">Download</a></li>
-        <li><button className="signup-btn">Sign Up</button></li>
+    <nav className="top-nav">
+      <div className="nav-logo">
+        <Link to="/">Booksterr</Link>
+      </div>
+      <ul className="nav-links">
+        <li>
+          <Link to="/how-it-works">How It Works</Link>
+        </li>
+        <li>
+          <Link to="/meet-the-team">Meet The Team</Link>
+        </li>
+        <li>
+          <Link to="/contact">Contact</Link>
+        </li>
       </ul>
     </nav>
   );
 }
 
-export default Navbar;
+export default NavBar;
