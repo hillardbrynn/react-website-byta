@@ -1,0 +1,28 @@
+/* src/components/Footer.css */
+
+.site-footer {
+    /* Background color is optional, change or remove as desired */
+    background-color: #f1eeee;
+    /* Padding around the footer */
+    padding: 2rem;
+    /* Centers everything inside the footer */
+    text-align: center;
+  }
+  
+  .footer-social {
+    /* Inline-flex to display icons side by side, centered */
+    display: inline-flex;
+    gap: 1.5rem; /* space between icons */
+  }
+  
+  /* Icon styles */
+  .footer-social a {
+    font-size: 1.5rem; /* Adjust icon size as needed */
+    color: #000000;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #0070f3; /* hover color - pick your brand color */
+  }
+  
